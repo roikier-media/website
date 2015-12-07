@@ -41,7 +41,6 @@ body {
 }
 
 p {
-  color: #fff;
   font-weight: 200;
   font-size: 1.5rem;
 }
@@ -53,7 +52,48 @@ p {
   margin-left: 5vw;
 }
 
+.cont {
+  width: 98vw;
+  height: 100vh;
+}
+
 .cont p {
   margin-top: 5vh;
   margin-left: 5vw;
+  color: #fff;
+}
+
+.txt {
+  padding-top: 5vh;
+  padding-bottom: 20vh;
+  background-color: #fff;
+}
+
+.txt .txtcont .ttl {
+  font-size: 2rem;
+  margin-bottom: 0.15rem;
+}
+
+.txt .txtcont p {
+  margin-left: 5vw;
+}
+
+.udrl {
+  width: 15vw;
+  height: 0.25rem;
+  margin-top: 0.3rem;
+  background-color: #3565AE;
+}
+
+.ftr {
+  margin-top: 3.5vh;
+  margin-bottom: 2.5vh;
+}
+
+.ftr p {
+  float: right;
+  margin-right: 5vw;
+  margin-bottom: 2.5vh;
+  font-size: 1rem;
+  color: #fff;
 }
